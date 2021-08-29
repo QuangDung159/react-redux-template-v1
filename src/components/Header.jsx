@@ -2,13 +2,13 @@ import React from "react"
 
 export default function Header() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-      <div class="container-fluid">
-        <button class="btn btn-primary" id="sidebarToggle">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div className="container-fluid">
+        <button className="btn btn-primary" id="sidebarToggle">
           Toggle Menu
         </button>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -16,23 +16,23 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" />
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#!">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li className="nav-item active">
+              <a className="nav-link" href="#!">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#!">
+            <li className="nav-item">
+              <a className="nav-link" href="#!">
                 Link
               </a>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 id="navbarDropdown"
                 href="#"
                 role="button"
@@ -43,17 +43,17 @@ export default function Header() {
                 Dropdown
               </a>
               <div
-                class="dropdown-menu dropdown-menu-end"
+                className="dropdown-menu dropdown-menu-end"
                 aria-labelledby="navbarDropdown"
               >
-                <a class="dropdown-item" href="#!">
+                <a className="dropdown-item" href="#!">
                   Action
                 </a>
-                <a class="dropdown-item" href="#!">
+                <a className="dropdown-item" href="#!">
                   Another action
                 </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#!">
+                <div className="dropdown-divider" />
+                <a className="dropdown-item" href="#!">
                   Something else here
                 </a>
               </div>
